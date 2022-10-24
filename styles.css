@@ -1,0 +1,111 @@
+
+
+
+
+/*coolors palette
+yellow #F9C80E
+orange #F86624
+red orange #EA3546
+purple #662E9B
+blue #43BCCD 
+*/
+
+
+
+
+
+
+
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#43BCCD, white);
+    background-size: cover;
+    margin: 20px auto;
+
+}
+
+h1, h2, h3 {
+    text-shadow: 1px 1px 4px black;
+}
+
+#Richard-img {
+    margin: 30px;
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid white;
+    
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.age {
+    background: #F9C80E;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px auto -8px;
+    border: 3px solid white;
+    
+    
+}
+
+.date {
+    background: #F9C80E;
+    border: 3px solid white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+#gift-section {
+    margin: 50px auto;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    align-items: center;
+    background-image: url("images/depositphotos_14850833-stock-photo-red-gift-box.jpg");
+    background-size: cover;
+    border: 6px solid #43BCCD; 
+}
+
+#gift-img-penguin:hover {
+    background-image: url("https://media.giphy.com/media/AdEe1C08bKfDseIwhb/giphy.gif");
+
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/LZElUsjl1Bu6c/giphy.gif");
+}
+
+#gift-img-swan:hover {
+    background-image: url("https://media.giphy.com/media/11j8oUxGIg06yI/giphy.gif");
+}
+
+#gift-img-bite:hover {
+    background-image: url("https://media.giphy.com/media/12rqBPpSz9jIA0/giphy.gif");
+}
+
+#gift-img-ape:hover {
+    background-image: url("https://media.giphy.com/media/Rlwz4m0aHgXH13jyrE/giphy-downsized-large.gif");
+}
+
+.footer {
+    margin: 50px auto 50px;
+}
+
+
+a {
+    color: black;
+}
